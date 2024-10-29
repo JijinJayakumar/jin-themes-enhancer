@@ -1,0 +1,38 @@
+{
+    "env": {
+        "browser": false,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "mocha": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020
+    },
+    "rules": {
+        "no-const-assign": "error",
+        "no-this-before-super": "warn",
+        "no-undef": "error",
+        "no-unreachable": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn",
+        "no-unused-vars": [
+            "warn",
+            {
+                "args": "none",
+                "varsIgnorePattern": "^_"
+            }
+        ],
+        "semi": ["error", "always"],
+        "quotes": ["error", "single"],
+        "eqeqeq": "error",
+        "no-trailing-spaces": "error",
+        "no-console": [
+            "warn",
+            {
+                "allow": ["warn", "error", "info"]
+            }
+        ]
+    },
+    "extends": "eslint:recommended"
+}

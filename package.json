@@ -2,8 +2,8 @@
   "name": "jin-themes-enhancer",
   "displayName": "Jin Themes Enhancer",
     "description": "Enhanced features for Jin Themes with advanced bracket colorization, semantic tokens, and font management",
- 
-  "version": "1.0.0",
+  "publisher": "Jijin",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.94.0"
   },
@@ -13,6 +13,48 @@
   ],
   "activationEvents": [
     "onStartupFinished"
+  ],
+   "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JijinJayakumar/jin-themes-enhancer"
+    },
+    "homepage": "https://github.com/JijinJayakumar/jin-themes-enhancer#readme",
+    "bugs": {
+        "url": "https://github.com/JijinJayakumar/jin-themes-enhancer/issues"
+    },
+    "galleryBanner": {
+        "color": "#1F2430",
+        "theme": "dark"
+    },
+     "keywords": [
+    "theme",
+    "dark theme",
+    "charcoal",
+    "material",
+    "jin themes",
+    "jcharcoal",
+    "J Dark Material v2",
+    "Jin Code Themes",
+    "Jijin",
+    "material theme",
+    "light theme",
+    "charcoal light",
+    "J Charcoal Light",
+    "J Funky Minimal Dark",
+    "funky minimal dark",
+    "ji2n serenity",
+    "serenity",
+    "jin themes",
+    "Jin Themes",
+    "Ji2n Serenity", "Minimal Theme"
+    
+  ],  "badges": [
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/v/Jijin.jin-themes",
+      "href": "https://marketplace.visualstudio.com/items?itemName=Jijin.jin-themes",
+      "description": "VS Code Marketplace Version"
+    }
   ],
   "main": "./extension.js",
   "contributes": {
